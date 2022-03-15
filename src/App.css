@@ -1,8 +1,14 @@
 h1 {
-  color: #fff;
+  color: #000;
   font-size: 40px;
   text-align: center;
   margin: 20px;
+}
+p {
+  font-size: 1.6rem;
+}
+small {
+  font-size: 1.2rem;
 }
 .search-container {
   display: flex;
@@ -15,44 +21,47 @@ h1 {
   height: 30px;
   width: 80%;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   border: none;
   margin: 0 5px;
   outline: none;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 .btn {
   cursor: pointer;
-  height: 30px;
+  height: 35px;
   width: 80%;
-  border-radius: 5px;
+  border-radius: 20px;
   border: none;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.75);
   color: #fff;
   margin: 20px 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .btn:hover {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.85);
 }
-.result-container {
+.card-list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #ccc;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 3.2rem;
 }
 .result {
   background-color: #fff;
-  border-radius: 2px;
-  width: 550px;
-  margin: 40px 0;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding: 2rem 4rem;
+  width: 100%;
 }
 .img-style {
-  width: 550px;
-  height: 300px;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+  border: 1px solid black;
+  display: block;
+  margin: auto;
 }
 
 .center {
@@ -63,12 +72,12 @@ h1 {
   top: -20px;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0);
 }
 .wave {
   width: 5px;
   height: 70px;
-  background: linear-gradient(45deg, blue, #fff);
+  background: linear-gradient(45deg, dodgerblue, #fff);
   margin: 10px;
   animation: wave 1s linear infinite;
   border-radius: 20px;
